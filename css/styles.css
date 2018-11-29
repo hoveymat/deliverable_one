@@ -1,0 +1,155 @@
+html{
+  background-color: #F0ECEE;
+  font-family: "Fira-Sans", sans-serif;
+  font-weight: 300;
+}
+
+a{
+  color: #88898B;
+  text-decoration: none;
+}
+
+.tabs {
+    list-style: none;
+ padding: 0;
+}
+
+.heading{
+  font-weight: 400;
+  font-size: 20px; 
+}
+
+.alpha{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.beta{
+  color: #88898B;
+}
+
+a:hover{
+  background-color: #FF4850;
+  padding: 1px;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+.contact {
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0;
+    text-decoration: none;
+    background: #FF4850;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.how {
+    display: inline-block;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0;
+    text-decoration: none;
+    background: #FF4850;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+button:hover{
+  background-color: #CCC;
+  padding: 10px;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+span{
+  color: #FF4850;
+}
+
+.content{
+  overflow-wrap: normal;
+}
+
+
+@media(min-width: 768px){
+  .contact{
+    width: auto
+  }
+}
+
+@media(min-width: 768px){
+  .how{
+    width: auto
+  }
+}
+
+@media(min-width: 768px){
+  .menu {
+    display: flex;
+  }
+}
+
+@media(min-width: 768px){
+  .menu p {
+   flex-grow: 1;
+  }
+}
+
+@media(min-width: 768px){
+  .tabs {
+    display: flex;
+    list-style: none;
+  }
+}
+
+@media(min-width: 768px){
+  li{
+    dipslay: inline block;
+    margin: 20px;
+  }
+}
+
+@media(min-width: 768px0){
+  .contact {
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    margin: 25px;
+    text-decoration: none;
+    background: #FF4850;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    width: auto%;
+  }
+}
+
+@media(min-width: 768px){
+  a:hover{
+    background-color: #FF4850;
+    padding: 10px;
+    border-radius: 15px;
+    color: #ffffff;
+  }
+}
+
+@media(min-width: 768px){
+  body{
+    background: url(bulldog.jpg);
+    background-repeat: no-repeat; 
+    background-size: 1000px;
+    background-position: bottom right;
+    padding-bottom: 400px;
+  }
+}
